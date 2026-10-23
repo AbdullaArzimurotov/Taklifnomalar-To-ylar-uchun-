@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Mehr: demolarni yangilash (Node.js kerak)",
+      "type": "process",
+      "command": "node",
+      "args": ["build-demos.cjs"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Mehr: tekshiruv (Node.js kerak)",
+      "type": "process",
+      "command": "node",
+      "args": ["test.cjs"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "dependsOn": "Mehr: demolarni yangilash (Node.js kerak)",
+      "problemMatcher": []
+    }
+  ]
+}

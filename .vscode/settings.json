@@ -1,0 +1,21 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.root": "/",
+  "liveServer.settings.wait": 250,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/*.code-workspace",
+    "**/*.zip",
+    "test-results/**",
+    "previews/**",
+    "node_modules/**",
+    ".git/**"
+  ],
+  "files.encoding": "utf8",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.exclude": {
+    "test-results": true
+  }
+}
